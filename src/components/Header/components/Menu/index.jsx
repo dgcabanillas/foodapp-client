@@ -7,9 +7,8 @@ import styles from './style.module.scss';
 
 const links = [
   { id: 1, to: '/', text: 'inicio' },
-  { id: 2, to: '/', text: 'aliados' },
-  { id: 3, to: '/', text: 'nosotros' },
-  { id: 4, to: '/', text: 'servicios' },
+  { id: 2, to: '/', text: 'nosotros' },
+  { id: 3, to: '/auth/login', text: 'ingresar' },
 ]
 
 const Menu = () => {
